@@ -1,0 +1,70 @@
+{
+  "kill" : {
+    "description":"restarts the nodejs process",
+    "example":"c@kill"
+  },
+  "oauth" : {
+    "description":"prints the bot's oauth url into the chat",
+    "example":"c@oauth"
+  },
+  "update" : {
+    "description":"updates the online user database",
+    "example":"c@update"
+  },
+  "purge" : {
+    "description":"deletes/purges data from the online database",
+    "example":"c@purge -[column/row]"
+  },
+  "announce" : {
+    "description":"sends a message globally",
+    "example":"c@announce -[message]"
+  },
+  "nuke" : {
+    "description":"deletes messages based off time to live",
+    "example":"c@nuke -[TTL]"
+  },
+  "run" : {
+    "description":"runs a javascript function/command",
+    "example":"c@run -[javascript]"
+  },
+  "help" : {
+    "description":"prints helpful information",
+    "example":"c@help or c@help -[command]"
+  },
+  "about" : {
+    "description":"prints useful information about Comet",
+    "example":"c@about"
+  },
+  "info" : {
+    "description":"prints information about users",
+    "example":"c@info or c@info -[username]"
+  },
+  "guilds" : {
+    "description":"lists all guilds w/ member count",
+    "example":"c@guilds"
+  },
+  "reaction" : {
+    "description":"allows you to add bot replies",
+    "example":"c@reaction -[message] -[reply]"
+  },
+  "poll" : {
+    "description":"allows you to create a yes/no poll",
+    "example":"c@poll -[question]"
+  },
+  "urban" : {
+    "description":"allows you to search urban dictionary",
+    "example":"c@urban -[phrase]"
+  },
+  "setup" : {
+    "description":"sets up a welcome message, admin list, and more",
+    "example":"c@setup"
+  },
+  "config" : {
+    "description":"change the owner id, or the welcome message",
+    "example":"c@config -[setting] -[value]"
+  },
+  "admin" : {
+    "description":"add or remove guild admins to your configuration",
+    "example":"c@admin -add -[userid] or c@admin -remove -[userid]"
+  }
+}
